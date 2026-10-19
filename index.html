@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>*_-34-_*_°*°-° HBD °-°*°_*_-34-_*</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="img-audio_grid">
+      <div class="img-audio_item">
+        <input
+          type="image"
+          src="/src/img_16.png"
+          value="PLAY"
+          onclick="play(this)"
+        />
+        <audio id="audio" src="/src/baby-ravenstein.m4a"></audio>
+      </div>
+
+      <div class="img-audio_item">
+        <input
+          type="image"
+          src="/src/img_8.png"
+          value="PLAY"
+          onclick="play(this)"
+        />
+        <audio id="audio" src="/src/Weet niet meer in griekenland.m4a"></audio>
+      </div>
+
+      <div class="img-audio_item">
+        <input
+          type="image"
+          src="/src/img_9.png"
+          value="PLAY"
+          onclick="play(this)"
+        />
+        <audio id="audio" src="/src/drone modern museum Athene .m4a"></audio>
+      </div>
+
+      <div class="img-audio_item">
+        <input
+          type="image"
+          src="/src/img_17.png"
+          value="PLAY"
+          onclick="play(this)"
+        />
+        <audio
+          id="audio"
+          src="/src/Jannis stukje ook op nieuwjaar gespeeld.m4a"
+        ></audio>
+      </div>
+
+      <div class="img-audio_item">
+        <input
+          type="image"
+          src="/src/img_13.png"
+          value="PLAY"
+          onclick="play(this)"
+        />
+        <audio id="audio" src="/src/Lolina-Jaques.m4a"></audio>
+      </div>
+
+      <div class="img-audio_item">
+        <input
+          type="image"
+          src="/src/img_10.png"
+          value="PLAY"
+          onclick="play(this)"
+        />
+        <audio id="audio" src="/src/gula-gula.m4a"></audio>
+      </div>
+
+      <div class="img-audio_item">
+        <input
+          type="image"
+          src="/src/img_11.png"
+          value="PLAY"
+          onclick="play(this)"
+        />
+        <audio id="audio" src="/src/oeeeeh im gonna buy shoes.m4a"></audio>
+      </div>
+
+      <div class="img-audio_item">
+        <input
+          type="image"
+          src="/src/img_12.png"
+          value="PLAY"
+          onclick="play(this)"
+        />
+        <audio id="audio" src="/src/Mr Lonely @ jaques .m4a"></audio>
+      </div>
+
+      <div class="img-audio_item">
+        <input
+          type="image"
+          src="/src/img_14.png"
+          value="PLAY"
+          onclick="play(this)"
+        />
+        <audio id="audio" src="/src/Tresor 3.m4a"></audio>
+      </div>
+
+      <div class="img-audio_item">
+        <input
+          type="image"
+          src="/src/img_15.png"
+          value="PLAY"
+          onclick="play(this)"
+        />
+        <audio id="audio" src="/src/ASAP Halberstadt trimmed.m4a"></audio>
+      </div>
+
+      <div class="img-audio_item">
+        <input
+          type="image"
+          src="/src/img_19.png"
+          value="PLAY"
+          onclick="play(this)"
+        />
+        <audio id="audio" src="/src/Geen idee griekenland.m4a"></audio>
+      </div>
+    </div>
+    <script>
+      function play(button) {
+        const audio = button.parentElement.querySelector("audio");
+
+        if (audio.paused) {
+          audio.play();
+        } else {
+          audio.pause();
+        }
+      }
+    </script>
+  </body>
+</html>
