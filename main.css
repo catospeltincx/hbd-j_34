@@ -1,5 +1,6 @@
 body {
   background: black;
+  background-image: url("src/bg_test_1.png");
 }
 
 input {
@@ -9,12 +10,13 @@ input {
 
 .img-audio_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 5px;
-  border: 1px solid white;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  grid-gap: 10px;
+  border: 2px solid rgb(0, 110, 255);
 }
 
 .img-audio_item {
-  padding-bottom: 10px;
-  border: 1px solid white;
+  background-color: rgb(0, 0, 0);
+  padding: 2px 7px;
+  border: 2px solid rgb(162, 0, 255);
 }
